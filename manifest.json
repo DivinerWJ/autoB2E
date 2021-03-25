@@ -21,7 +21,7 @@
 	},
 
 	"content_scripts": [{
-		"matches": [],
+		"matches": [], // 这里按照官方文档里面的教程写正则表达式 如 *aaa.bbb.com/aaa*
 		"js": ["./js/utils.js", "./js/contentscript.js"]
 	}],
 
